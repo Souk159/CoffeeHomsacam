@@ -46,7 +46,7 @@ const Contact = () => {
                 </form>
                 <div className='mt-8 text-center'>
                     <p className='text-gray-600'>Or reach us directly:</p>
-                    <p className='font-semibold text-black'>+1 (123) 456-7890</p>
+                    <p className='font-semibold text-black'>+856 97093619</p>
                     <p className='font-semibold text-black'>info@coffeewebsite.com</p>
                 </div>
             </motion.div>

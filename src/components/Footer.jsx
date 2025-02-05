@@ -37,7 +37,7 @@ const Footer = () => {
                 <div className='max-w-7xl mx-auto grid md:grid-cols-3 pb-20 pt-5'>
                     {/* company details */}
                     <div className='py-8 px-4'>
-                        <a href="#" className='font-semibold tracking-widest text-2xl sm:text-3xl font-cursive'>Brew Haven</a>
+                        <a href="#" className='font-semibold tracking-widest text-2xl sm:text-3xl font-cursive'>Homsacam</a>
                         <p className='pt-4'>Crafted Coffee, Cozy Vibes, Unforgettable Moments – Your Perfect Espresso Escape</p>
                         <a href="https://www.youtube.com/@WebeliteBuilders" target='_blank' className='inline-block bg-[#3d2517] py-2 px-4 mt-5 text-sm rounded-full'>Visit our YouTube Channel</a>
                     </div>
@@ -70,7 +70,7 @@ const Footer = () => {
                         <div className='py-8 px-4 col-span-2 sm:col-auto'>
                             <h1 className='text-xl font-semibold sm:text-left mb-3'>Address</h1>
                             <div>
-                                <p className='mb-3'>Saphungmuek, xaithany</p>
+                                <p className='mb-3'>Khumhoung, xaithany</p>
                                 <p>+856 97093619</p>
                                 {/* social links */}
                                 <div className='flex items-center gap-3 mt-6'>
