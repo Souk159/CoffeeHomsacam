@@ -8,6 +8,14 @@ import Img4 from '../assets/thaitea2.png'
 import Img7 from '../assets/Coco2.png'
 import Img8 from '../assets/Hochi.png'
 import Img9 from '../assets/espresso.png'
+import Img10 from '../assets/Chocolate.png'
+import Img11 from '../assets/Cappuccino.png'
+import Img12 from '../assets/Milk.png'
+import Img13 from '../assets/greenhoney.png'
+import Img15 from '../assets/taro1.png'
+import Img16 from '../assets/iceblack1.png'
+import Img17 from '../assets/icecaramel3.png'
+import Img18 from '../assets/shakecaramel2.png'
 import { motion } from 'framer-motion'
 
 const MenuData = [
@@ -100,6 +108,86 @@ const MenuData = [
       icestatus:"Ice",
       description:
         "Hot",
+    },
+    {
+      id: 10,
+      img: Img10,
+      name: "Chocolate",
+      price:"25.000 kip",
+      iceprice:"32.000 kip",
+      icestatus:"Ice",
+      description:
+        "Hot",
+    },
+    {
+      id: 11,
+      img: Img11,
+      name: "Cappuccino",
+      price:"29.000 kip",
+      iceprice:"32.000 kip",
+      icestatus:"Ice",
+      description:
+        "Hot",
+    },
+    {
+      id: 12,
+      img: Img12,
+      name: "Milk",
+      price:"29.000 kip",
+      iceprice:"32.000 kip",
+      icestatus:"Ice",
+      description:
+        "Hot",
+    },
+    {
+      id: 13,
+      img: Img13,
+      name: "Green honey lemon",
+      price:"29.000 kip",
+      iceprice:"32.000 kip",
+      icestatus:"Ice",
+      description:
+        "Hot",
+    },
+    {
+      id: 15,
+      img: Img15,
+      name: "Taro",
+      price:"29.000 kip",
+      iceprice:"32.000 kip",
+      icestatus:"Ice",
+      description:
+        "Hot",
+    },
+    {
+      id: 16,
+      img: Img16,
+      name: "Black coffee",
+      price:"32.000 kip",
+      iceprice:"32.000 kip",
+      icestatus:"Ice",
+      description:
+        "Ice",
+    },
+    {
+      id: 17,
+      img: Img17,
+      name: "Caramel macchiato",
+      price:"36.000 kip",
+      iceprice:"32.000 kip",
+      icestatus:"Ice",
+      description:
+        "Ice",
+    },
+    {
+      id: 18,
+      img: Img18,
+      name: "Caramel macchiato",
+      price:"42.000 kip",
+      iceprice:"32.000 kip",
+      icestatus:"Ice",
+      description:
+        "Ice shake",
     },
   ];
 
