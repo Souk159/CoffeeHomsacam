@@ -187,7 +187,7 @@ const MenuData = [
       iceprice:"32.000 kip",
       icestatus:"Ice",
       description:
-        "Ice shake",
+        "Shake",
     },
   ];
 
