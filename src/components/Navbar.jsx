@@ -16,9 +16,10 @@ const Navbar = () => {
                 {/* menu section */}
                 <nav className='md:flex hidden items-center gap-7'>
                     <ul className='flex gap-7 items-center text-xl font-semibold text-white'>
-                        <a href="/"><li className='cursor-pointer'>Home</li></a>
-                        <a href="#menu"><li className='cursor-pointer'>Menu</li></a>
-                        <a href="#about"><li className='cursor-pointer'>About</li></a>
+                        <a href="/"><li className='cursor-pointer'>ໜ້າຫຼັກ</li></a>
+                        <a href="#menu"><li className='cursor-pointer'>ເມນູກາເຟ</li></a>
+                        <a href="#menusmoothie"><li className='cursor-pointer'>ເມນູປັ່ນ</li></a>
+                        <a href="#about"><li className='cursor-pointer'>ກ່ຽວກັບຮ້ານ</li></a>
                         <a href="#testimonial"><li className='cursor-pointer'>Testimonial</li></a>
                     </ul>
                     <a href="#contact"><button className='bg-amber-800 text-white hover:bg-amber-900 px-3 py-1 rounded-md'>Contact</button></a>

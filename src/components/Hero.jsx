@@ -24,7 +24,7 @@ const Hero = () => {
                      initial={{opacity:0,x:-60}}
                      whileInView={{opacity:1,x:0}}
                      transition={{duration:1.2, delay:0.6}}
-                    ></motion.p>
+                    >ສະບາຍດີ ລູກຄ້າທີ່ໜ້າຮັກທຸກໆທ່ານ ເລືອກເບິ່ງລາຍການທີ່ຢາກສັ່ງໄດ້ເລີຍເດີ້</motion.p>
                     <motion.div 
                      initial={{opacity:0,x:-70}}
                      whileInView={{opacity:1,x:0}}

@@ -6,6 +6,7 @@ import About from './components/About'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Menushake from './components/Menushake'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
        <Navbar/>
        <Hero/>
        <Menu/>
+       <Menushake />
        <About/>
        <Testimonials/>
        <Contact/>

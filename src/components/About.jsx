@@ -21,7 +21,7 @@ const About = () => {
        initial={{opacity:0,y:100}}
        whileInView={{opacity:1,y:0}}
        transition={{duration:1.5, delay:0.5}}
-      className='text-amber-900 font-cursive text-5xl text-center'>About Us</motion.h1>
+      className='text-amber-900 text-5xl text-center'>ກ່ຽວກັບຮ້ານ</motion.h1>
       <div className='flex flex-col md:flex-row items-center max-w-7xl mx-auto'>
         {/* image section */}
         <motion.div
@@ -37,12 +37,12 @@ const About = () => {
               initial={{opacity:0,y:100}}
               whileInView={{opacity:1,y:0}}
               transition={{duration:1.5, delay:0.5}}
-            className='text-2xl font-cursive2 text-amber-900'>Message</motion.h1>
+            className='text-2xl text-amber-900'>ຮ້ານ ກາເຟ ຮົ່ມສາແຄມ ເປີດທຸກໆມື້ ຕັ້ງແຕ່ ວັນຈັນ ຫາ ວັນອາທິດເລີຍ</motion.h1>
             <motion.p 
               initial={{opacity:0,y:100}}
               whileInView={{opacity:1,y:0}}
               transition={{duration:1.5, delay:0.6}}
-            className='font-cursive2'></motion.p>
+            >ສະບາຍດີ ລູກຄ້າທີ່ໜ້າຮັກທຸກທ່ານ ຮ້ານ ກາເຟຮົ່ມສາແຄມ ຕັ້ງຢູ່ທີ່ບ້ານ ຄຳຮຸ່ງ ເມືອງ ໄຊທານີ ແຂວງນະຄອນຫຼວງວຽງຈັນ ຍິນດີທີ່ໄດ້ໃຫ້ບໍລິການ ກັບລູກຄ້າທຸກທ່ານ ຂອບໃຈທີ່ມາ ອຸດໜູນທາງຮ້ານເຮົາເດີ້</motion.p>
         </div>
       </div>
     </div>

@@ -6,9 +6,10 @@ const ResponsiveMenu = ({ open, setOpen }) => {
             <div>
                 <nav className='mt-12'>
                     <ul className='flex flex-col gap-7 text-lg font-semibold text-white'>
-                        <a href="/"><li onClick={()=>setOpen(false)} className='cursor-pointer'>Home</li></a>
-                        <a href="#menu"><li onClick={()=>setOpen(false)} className='cursor-pointer'>Menu</li></a>
-                        <a href="#about"><li onClick={()=>setOpen(false)} className='cursor-pointer'>About</li></a>
+                        <a href="/"><li onClick={()=>setOpen(false)} className='cursor-pointer'>ໜ້າຫຼັກ</li></a>
+                        <a href="#menu"><li onClick={()=>setOpen(false)} className='cursor-pointer'>ເມນູກາເຟ</li></a>
+                        <a href="#menusmoothie"><li onClick={()=>setOpen(false)} className='cursor-pointer'>ເມນູປັ່ນ</li></a>
+                        <a href="#about"><li onClick={()=>setOpen(false)} className='cursor-pointer'>ກ່ຽວກັບຮ້ານ</li></a>
                         <a href="#testimonial"><li onClick={()=>setOpen(false)} className='cursor-pointer'>Testimonial</li></a>
                         <a href="#contact"><button onClick={()=>setOpen(false)} className='bg-amber-800 text-white hover:bg-amber-900 px-3 py-1 rounded-md'>Contact</button></a>
                     </ul>
