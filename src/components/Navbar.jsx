@@ -20,7 +20,7 @@ const Navbar = () => {
                         <a href="#menu"><li className='cursor-pointer'>ເມນູກາເຟ</li></a>
                         <a href="#menusmoothie"><li className='cursor-pointer'>ເມນູປັ່ນ</li></a>
                         <a href="#about"><li className='cursor-pointer'>ກ່ຽວກັບຮ້ານ</li></a>
-                        <a href="#testimonial"><li className='cursor-pointer'>Testimonial</li></a>
+                        <a href="#testimonial"><li className='cursor-pointer'>ຊາຊົງ</li></a>
                     </ul>
                     <a href="#contact"><button className='bg-amber-800 text-white hover:bg-amber-900 px-3 py-1 rounded-md'>Contact</button></a>
                 </nav>

@@ -10,7 +10,7 @@ const ResponsiveMenu = ({ open, setOpen }) => {
                         <a href="#menu"><li onClick={()=>setOpen(false)} className='cursor-pointer'>ເມນູກາເຟ</li></a>
                         <a href="#menusmoothie"><li onClick={()=>setOpen(false)} className='cursor-pointer'>ເມນູປັ່ນ</li></a>
                         <a href="#about"><li onClick={()=>setOpen(false)} className='cursor-pointer'>ກ່ຽວກັບຮ້ານ</li></a>
-                        <a href="#testimonial"><li onClick={()=>setOpen(false)} className='cursor-pointer'>Testimonial</li></a>
+                        <a href="#testimonial"><li onClick={()=>setOpen(false)} className='cursor-pointer'>ຊາຊົງ</li></a>
                         <a href="#contact"><button onClick={()=>setOpen(false)} className='bg-amber-800 text-white hover:bg-amber-900 px-3 py-1 rounded-md'>Contact</button></a>
                     </ul>
                 </nav>

@@ -2,32 +2,36 @@ import React from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Img1 from "../assets/greentea.jpg";
+import Img2 from "../assets/twinings.png";
+import Img3 from "../assets/twinings1.png";
+import Img4 from "../assets/twinings2.png";
 import { motion } from 'framer-motion';
 
 
 const TestimonialData = [{
     id: 1,
-    name: "Vanshika",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/101/101",
+    name: "Green Tea",
+    text: "ລາຄາ 20.000ກີບ",
+    img: Img1,
 },
 {
     id: 2,
-    name: "Rohit",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/102/102",
+    name: "Pure peppermint",
+    text: "ລາຄາ 20.000ກີບ",
+    img: Img2,
 },
 {
     id: 3,
-    name: "Ankit",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/104/104",
+    name: "English breakfast tea",
+    text: "ລາຄາ 20.000ກີບ",
+    img: Img3,
 },
 {
     id: 5,
-    name: "Aman",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/103/103",
+    name: "Earl grey tea",
+    text: "ລາຄາ 20.000ກີບ",
+    img: Img4,
 },
 ];
 
@@ -79,7 +83,7 @@ const Testimonials = () => {
                      initial={{opacity:0,y:100}}
                      whileInView={{opacity:1,y:0}}
                      transition={{duration:1.5, delay:0.5}}
-                    className='text-center text-amber-900 text-4xl font-bold font-cursive'>Testimonials</motion.h1>
+                    className='text-center text-amber-900 text-4xl font-bold '>ຊາຊົງ</motion.h1>
                 </div>
                 {/* Testimonials cards */}
                 <motion.div
@@ -95,9 +99,9 @@ const Testimonials = () => {
                                         <img src={data.img} alt="" className='rounded-full w-20 h-20' />
                                     </div>
                                     {/* content section */}
-                                    <div className='flex flex-col items-center gap-4'>
+                                    <div className='flex flex-col gap-4'>
                                         <div className='space-y-3'>
-                                            <p className='text-xs text-gray-500 '>{data.text}</p>
+                                            <h2 className=' text-gray-500 '>{data.text}</h2>
                                             <h1 className='text-xl font-bold text-black/80 font-cursive2'>{data.name}</h1>
                                         </div>
                                     </div>
